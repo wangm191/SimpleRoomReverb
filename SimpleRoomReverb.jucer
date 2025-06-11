@@ -5,6 +5,9 @@
   <MAINGROUP id="OKwa2w" name="SimpleRoomReverb">
     <GROUP id="{783F5C3E-75D7-72E2-FB7B-DD7F3280593C}" name="Source">
       <GROUP id="{BC36C62E-1954-DAFD-CC6F-C72D64C2552D}" name="Ui">
+        <FILE id="hhXIwK" name="BypassButton.cpp" compile="1" resource="0"
+              file="Source/Ui/BypassButton.cpp"/>
+        <FILE id="ES8rNF" name="BypassButton.h" compile="0" resource="0" file="Source/Ui/BypassButton.h"/>
         <FILE id="SNeEJc" name="FreezeButton.cpp" compile="1" resource="0"
               file="Source/Ui/FreezeButton.cpp"/>
         <FILE id="fxVQfb" name="FreezeButton.h" compile="0" resource="0" file="Source/Ui/FreezeButton.h"/>
