@@ -4,6 +4,11 @@
               addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
   <MAINGROUP id="OKwa2w" name="SimpleRoomReverb">
     <GROUP id="{783F5C3E-75D7-72E2-FB7B-DD7F3280593C}" name="Source">
+      <GROUP id="{BC36C62E-1954-DAFD-CC6F-C72D64C2552D}" name="Ui">
+        <FILE id="Fuak8q" name="Slider.cpp" compile="1" resource="0" file="Source/Ui/Slider.cpp"/>
+        <FILE id="JftufR" name="Slider.h" compile="0" resource="0" file="Source/Ui/Slider.h"/>
+        <FILE id="QpMYVN" name="UseColors.h" compile="0" resource="0" file="Source/Ui/UseColors.h"/>
+      </GROUP>
       <FILE id="zFVbAI" name="Parameters.h" compile="0" resource="0" file="Source/Parameters.h"/>
       <FILE id="IwPaLv" name="PluginProcessor.cpp" compile="1" resource="0"
             file="Source/PluginProcessor.cpp"/>
