@@ -4,6 +4,27 @@
               addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
   <MAINGROUP id="OKwa2w" name="SimpleRoomReverb">
     <GROUP id="{783F5C3E-75D7-72E2-FB7B-DD7F3280593C}" name="Source">
+      <GROUP id="{BC36C62E-1954-DAFD-CC6F-C72D64C2552D}" name="Ui">
+        <FILE id="hhXIwK" name="BypassButton.cpp" compile="1" resource="0"
+              file="Source/Ui/BypassButton.cpp"/>
+        <FILE id="ES8rNF" name="BypassButton.h" compile="0" resource="0" file="Source/Ui/BypassButton.h"/>
+        <FILE id="OeDREk" name="EditorContent.cpp" compile="1" resource="0"
+              file="Source/Ui/EditorContent.cpp"/>
+        <FILE id="E6IZ2x" name="EditorContent.h" compile="0" resource="0" file="Source/Ui/EditorContent.h"/>
+        <FILE id="UiUFtm" name="EditorResize.cpp" compile="1" resource="0"
+              file="Source/Ui/EditorResize.cpp"/>
+        <FILE id="u3OMni" name="EditorResize.h" compile="0" resource="0" file="Source/Ui/EditorResize.h"/>
+        <FILE id="SNeEJc" name="FreezeButton.cpp" compile="1" resource="0"
+              file="Source/Ui/FreezeButton.cpp"/>
+        <FILE id="fxVQfb" name="FreezeButton.h" compile="0" resource="0" file="Source/Ui/FreezeButton.h"/>
+        <FILE id="Fuak8q" name="Slider.cpp" compile="1" resource="0" file="Source/Ui/Slider.cpp"/>
+        <FILE id="JftufR" name="Slider.h" compile="0" resource="0" file="Source/Ui/Slider.h"/>
+        <FILE id="kmHPqP" name="UndoManagerButton.cpp" compile="1" resource="0"
+              file="Source/Ui/UndoManagerButton.cpp"/>
+        <FILE id="RjoYqn" name="UndoManagerButton.h" compile="0" resource="0"
+              file="Source/Ui/UndoManagerButton.h"/>
+        <FILE id="QpMYVN" name="UseColors.h" compile="0" resource="0" file="Source/Ui/UseColors.h"/>
+      </GROUP>
       <FILE id="zFVbAI" name="Parameters.h" compile="0" resource="0" file="Source/Parameters.h"/>
       <FILE id="IwPaLv" name="PluginProcessor.cpp" compile="1" resource="0"
             file="Source/PluginProcessor.cpp"/>
