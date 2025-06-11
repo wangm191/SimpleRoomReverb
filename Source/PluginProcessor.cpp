@@ -312,8 +312,8 @@ bool SimpleRoomReverbAudioProcessor::hasEditor() const
 
 juce::AudioProcessorEditor* SimpleRoomReverbAudioProcessor::createEditor()
 {
-    //return new SimpleRoomReverbAudioProcessorEditor (*this, undoManager);
-    return new juce::GenericAudioProcessorEditor (*this);
+    return new SimpleRoomReverbAudioProcessorEditor (*this, undoManager);
+    //return new juce::GenericAudioProcessorEditor (*this);
 }
 
 //==============================================================================

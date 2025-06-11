@@ -8,6 +8,9 @@
         <FILE id="hhXIwK" name="BypassButton.cpp" compile="1" resource="0"
               file="Source/Ui/BypassButton.cpp"/>
         <FILE id="ES8rNF" name="BypassButton.h" compile="0" resource="0" file="Source/Ui/BypassButton.h"/>
+        <FILE id="OeDREk" name="EditorContent.cpp" compile="1" resource="0"
+              file="Source/Ui/EditorContent.cpp"/>
+        <FILE id="E6IZ2x" name="EditorContent.h" compile="0" resource="0" file="Source/Ui/EditorContent.h"/>
         <FILE id="SNeEJc" name="FreezeButton.cpp" compile="1" resource="0"
               file="Source/Ui/FreezeButton.cpp"/>
         <FILE id="fxVQfb" name="FreezeButton.h" compile="0" resource="0" file="Source/Ui/FreezeButton.h"/>

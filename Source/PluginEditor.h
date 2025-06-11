@@ -10,7 +10,7 @@
 
 #include <JuceHeader.h>
 #include "PluginProcessor.h"
-//#include "EditorContent.h"
+#include "./Ui/EditorContent.h"
 //#include "EditorResize.h"
 #include <juce_audio_processors/juce_audio_processors.h>
 #include <juce_gui_basics/juce_gui_basics.h>
@@ -36,7 +36,7 @@ private:
     
     juce::UndoManager& undoManager;
     
-    //EditorContent editorContent;
+    EditorContent editorContent;
     
     static constexpr auto defaultWidth { 690 };
     static constexpr auto defaultHeight { 250 };
@@ -48,7 +48,7 @@ private:
 //
 //        EditorResize editorResize;
 //       };
-
+//
 //       juce::SharedResourcePointer<SharedLnf> lnf;
 
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (SimpleRoomReverbAudioProcessorEditor)
