@@ -13,6 +13,10 @@
         <FILE id="fxVQfb" name="FreezeButton.h" compile="0" resource="0" file="Source/Ui/FreezeButton.h"/>
         <FILE id="Fuak8q" name="Slider.cpp" compile="1" resource="0" file="Source/Ui/Slider.cpp"/>
         <FILE id="JftufR" name="Slider.h" compile="0" resource="0" file="Source/Ui/Slider.h"/>
+        <FILE id="kmHPqP" name="UndoManagerButton.cpp" compile="1" resource="0"
+              file="Source/Ui/UndoManagerButton.cpp"/>
+        <FILE id="RjoYqn" name="UndoManagerButton.h" compile="0" resource="0"
+              file="Source/Ui/UndoManagerButton.h"/>
         <FILE id="QpMYVN" name="UseColors.h" compile="0" resource="0" file="Source/Ui/UseColors.h"/>
       </GROUP>
       <FILE id="zFVbAI" name="Parameters.h" compile="0" resource="0" file="Source/Parameters.h"/>
