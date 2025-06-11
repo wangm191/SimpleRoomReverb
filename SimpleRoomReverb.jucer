@@ -11,6 +11,9 @@
         <FILE id="OeDREk" name="EditorContent.cpp" compile="1" resource="0"
               file="Source/Ui/EditorContent.cpp"/>
         <FILE id="E6IZ2x" name="EditorContent.h" compile="0" resource="0" file="Source/Ui/EditorContent.h"/>
+        <FILE id="UiUFtm" name="EditorResize.cpp" compile="1" resource="0"
+              file="Source/Ui/EditorResize.cpp"/>
+        <FILE id="u3OMni" name="EditorResize.h" compile="0" resource="0" file="Source/Ui/EditorResize.h"/>
         <FILE id="SNeEJc" name="FreezeButton.cpp" compile="1" resource="0"
               file="Source/Ui/FreezeButton.cpp"/>
         <FILE id="fxVQfb" name="FreezeButton.h" compile="0" resource="0" file="Source/Ui/FreezeButton.h"/>

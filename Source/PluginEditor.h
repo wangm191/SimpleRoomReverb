@@ -11,7 +11,7 @@
 #include <JuceHeader.h>
 #include "PluginProcessor.h"
 #include "./Ui/EditorContent.h"
-//#include "EditorResize.h"
+#include "./Ui/EditorResize.h"
 #include <juce_audio_processors/juce_audio_processors.h>
 #include <juce_gui_basics/juce_gui_basics.h>
 
@@ -41,15 +41,15 @@ private:
     static constexpr auto defaultWidth { 690 };
     static constexpr auto defaultHeight { 250 };
     
-//    struct SharedLnf
-//       {
-//            SharedLnf() { juce::LookAndFeel::setDefaultLookAndFeel (&editorResize); }
-//           ~SharedLnf() { juce::LookAndFeel::setDefaultLookAndFeel (nullptr); }
-//
-//        EditorResize editorResize;
-//       };
-//
-//       juce::SharedResourcePointer<SharedLnf> lnf;
+    struct SharedLnf
+       {
+            SharedLnf() { juce::LookAndFeel::setDefaultLookAndFeel (&editorResize); }
+           ~SharedLnf() { juce::LookAndFeel::setDefaultLookAndFeel (nullptr); }
+
+        EditorResize editorResize;
+       };
+
+       juce::SharedResourcePointer<SharedLnf> lnf;
 
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (SimpleRoomReverbAudioProcessorEditor)
 };
