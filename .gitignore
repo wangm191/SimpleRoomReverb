@@ -1,0 +1,25 @@
+# JUCE / Xcode build output
+Builds/
+*.a
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.app
+*.dSYM/
+*.DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.xcworkspace
+*.xcuserstate
+*.xcuserdata
+*.user
+*.suo
+*.sln
+*.ncb
+
+# macOS metadata
+.DS_Store
